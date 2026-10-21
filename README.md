@@ -1,3 +1,19 @@
+# BPF Compiler Collection
+
+**Linux tracing tools and examples, with C kernel instrumentation and Python/Lua front ends.**
+
+Linux · eBPF · Observability
+
+[Install](INSTALL.md) · [Quick start](QUICKSTART.md) · [Ready-made tools](tools/) · [API reference](docs/reference_guide.md)
+
+Install BCC for your distribution, try a tool from `tools/`, then study `examples/tracing/` to follow probe, map and user-space output. The histogram below is an upstream example.
+
+> Fork under novadusk · Upstream: [iovisor/bcc](https://github.com/iovisor/bcc) · Branch: `master`. Upstream badges, release links and documentation below describe the original project.
+
+---
+
+## Upstream documentation
+
 ![BCC Logo](images/logo2.png)
 # BPF Compiler Collection (BCC)
 
@@ -81,7 +97,7 @@ pair of .c and .py files, and some are directories of files.
 - examples/tracing/[kvm_hypercall.py](examples/tracing/kvm_hypercall.py): Conditional static kernel tracepoints for KVM entry, exit and hypercall [Examples](examples/tracing/kvm_hypercall.txt).
 
 #### Tools
-<center><a href="images/bcc_tracing_tools_2019.png"><img src="images/bcc_tracing_tools_2019.png" border=0 width=700></a></center>
+<center><a href="images/bcc_tracing_tools_2019.png"><img src="images/bcc_tracing_tools_2019.png" width="700" alt="BCC Linux tracing tools by subsystem"></a></center>
 
 
 - tools/[argdist](tools/argdist.py): Display function parameter values as a histogram or frequency count. [Examples](tools/argdist_example.txt).
